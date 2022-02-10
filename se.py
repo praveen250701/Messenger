@@ -1,6 +1,9 @@
 import socket
 from threading import Thread
-import cv2, socket, numpy, pickle
+import cv2
+import socket
+import numpy
+import pickle
 
 
 SERVER = 'localhost'  # localhost
