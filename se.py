@@ -5,7 +5,7 @@ import socket
 import numpy
 import pickle
 
-
+hi = 0
 SERVER = 'localhost'  # localhost
 PORT = 15011
 FORMAT = 'utf-8'
