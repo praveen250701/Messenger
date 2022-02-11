@@ -1,5 +1,5 @@
 #BUG in Transmitting a image file was Rectified
-#BY MPR
+
 
 import socket
 from threading import Thread
@@ -61,7 +61,7 @@ def ReceivePic():
     basename = "image%s.png"
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.bind((HOST, PORT))
+    sock.bind((SERVER, PORT))
     sock.listen()
 
     while True:
