@@ -6,7 +6,7 @@ import cv2
 import socket
 import pickle
 import os
-
+hi = 0
 HEADER = 64
 PORT = 1501
 FORMAT = 'utf-8'
